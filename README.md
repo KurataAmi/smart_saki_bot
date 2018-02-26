@@ -1,8 +1,10 @@
 使用に当たっては別途
 requests slackclient などのライブラリをpipなどで入手が必要です。
 
+
 ▼コンセプト
     一問一答ではなく自然言語で理解して本を探してきてくれるちょっと気が利く紗希ちゃんBot(未実装)
+
 
 ▼botのふるまい
     0 ユーザーが　$books から始まるコマンドを使用して本を探す　例：$books　俺の妹　など…
@@ -21,12 +23,14 @@ requests slackclient などのライブラリをpipなどで入手が必要で�
         http://slackapi.github.io/python-slackclient/conversations.html
         https://github.com/slackapi/python-slackclient
 
+
 ▼Bot作成手順
     1   Botが毎回動作するごとに必要なパラメータをどこかに定義して保持する
         APIキーがあればどうにかなるような設計
     2   会話の前後をいい感じに覚えてくれる設計
     3   書物の検索を行って値を返す設計
     4   自然言語でいい感じに解釈してくれる設計
+
 
 
 
